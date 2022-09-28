@@ -24,3 +24,8 @@ def get_winner(computer_choice:str,user_choice:str)->str:
     else:
         print(f'Nobody won, user chose {user_choice} and computer chose {computer_choice}')
 
+def play():
+
+    computer_choice = get_computer_choice()
+    user_choice = get_usr_choice()
+    get_winner(computer_choice=computer_choice,user_choice=user_choice)
